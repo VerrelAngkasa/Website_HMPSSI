@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(122, 218, 26);
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+}
+
+header {
+    max-width: 1600px;
+    width: 100%;
+}
+
+header .head-navbar {
+    width: auto;
+
+    background-color: #7ada1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 2px 1.5px rgb(176, 176, 176);
+}
+
+
+header .head-navbar img {
+    width: 150px;
+}
+
+header .head-navbar .nav-list ul {
+    padding-right: 15px;
+    display: flex;
+    gap: 3rem;
+}
+
+header .head-navbar .nav-list li {
+    list-style-type: none;
+}
+
+header .head-navbar .nav-list li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    padding: .3rem .5rem;
+    border-radius: 999px;
+    transition: all .10s ease-in-out;
+    
+}
+
+header .head-navbar .nav-list li:hover a {
+    font-weight: 700;
+    color: rgb(122, 218, 26);
+    background-color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(122, 218, 26);
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+   
+}
+
+header .homepage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+
+}
+
+header .homepage .homepage-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header .homepage .homepage-content p {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+header .homepage .homepage-content button {
+    padding: .5rem;
+    width: 50%;
+   
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+
+    border: 3px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(122, 218, 26);
+    cursor: pointer;
+    transition: all .10s ease-in-out;
+}
+
+header .homepage .homepage-content button a {
+    color: white;
+    text-decoration: none;
+}
+
+header .homepage .homepage-content button:hover {
+    border: 3px solid rgb(122, 218, 26);
+    background-color: white;
+}
+
+header .homepage .homepage-content button:hover a {
+    color: rgb(122, 218, 26);
+}
+
+header .homepage .homepage-logo img {
+    flex: 1 1;
+    display: flex;
+    width: 250px;
+}
+
+header .homepage .homepage-cody img {
+    flex: 1 1;
+    display: flex;
+    width: 200px;
+}
+
+main {
+    margin: 30px;
+}
+
+.box-main {
+    box-shadow: 1px 1px 5px 1px rgb(122, 218, 26);
+    border: 1.5px solid rgb(122, 218, 26);
+    border-radius: 35px;
+    padding: 15px;
+    margin: 50px;
+}
+
+main .content .heading h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(122, 218, 26);
+    box-shadow: 0 1px 2px 1.5px rgb(176, 176, 176);
+    border-radius: 35px;
+    margin: 0;
+    padding: 5px 0px;
+}
+
+main .content .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 20px;
+}
+
+main .content .about p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.span1 {
+    text-align: center;
+    color: rgb(122, 218, 26);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+main .content aside .span1 p {
+    margin: 10px;
+}
+   
+main .content .about img {
+    width: 200px;
+}
+
+main .content aside .mascot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 20px;
+    margin-top: 0;
+}
+
+main .content aside .mascot p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+main .content aside .mascot img {
+    width: 230px;
+}
+
+main .content .box-main .bph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+main .content .box-main .members-description {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+.heading1 {
+    color: white;
+    background-color: rgb(122, 218, 26);
+    text-align: center;
+    width: 50%;
+    border-radius: 35px;
+    padding: 5px 0px;
+    box-shadow: 0 1px 2px 1.5px rgb(176, 176, 176);
+
+}
+
+.heading1 h3 {
+    margin: 0;
+}
+
+main .content .box-main section .box-members {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    margin-bottom: 40px;
+
+}
+
+.span2 {
+    background-color: rgb(122, 218, 26);
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    margin: 0;
+}
+
+main .content .box-main section .box-members figure {
+    border: 3px solid rgb(122, 218, 26);
+    border-radius: 35px;
+    box-shadow: 2px 2px 10px 2px rgb(176, 176, 176);
+}
+
+main .content .box-main section .box-members figure p {
+    text-align: center;
+    padding: 5px;
+}
+
+main .content .box-main .hubin {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .content .box-main .hubeks {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content .box-main .medkom {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content .box-main section .box-members figure img {
+    width: 350px;
+}
+
+main .proker-hubin {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-proker {
+    display: flex; 
+}
+
+main .proker-hubin .box-proker figure {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main .proker-hubin .box-proker figure p {
+    width: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+main .proker-hubin figure img {
+    width: 250px;
+}
+
+.span3 {
+    background-color: rgb(122, 218, 26);
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+
+    margin: 0;
+}
+
+main .proker-eksternal {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main .proker-eksternal .box-proker figure {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main .proker-eksternal .box-proker figure p {
+    width: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+main .proker-eksternal figure img {
+    width: 250px;
+}
+
+.coming-visit {
+    display: flex;
+    justify-content: center;
+
+    gap: 1.5rem;
+}
+
+.soon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#visit {
+    height: auto;
+}
+
+.visitus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.medsos li {
+    list-style-type: none;
+}
+
+.medsos li a {
+    color: rgb(122, 218, 26);
+    font-size: larger;
+
+}
+
+.logo-visit img {
+    width: 140px;
+
+    display: flex;
+}
+
+aside img {
+    width: 130px;
+}
+
+aside th {
+    text-align: left;
+}
+
+aside td {
+    text-align: right;
+}
+
+.penulis {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(122, 218, 26);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+
+    padding: 5px;
+}
